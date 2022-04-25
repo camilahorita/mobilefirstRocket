@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+
+  font-size: 62.5%;
+  --fs-title: 4.0rem;
+  --fs-body: 2.0rem;
+
+}
+body {
+  font-family: 'Palanquin', sans-serif;
+
+}
+header{
+  background: #8E9AAF;
+  display: flex;
+  flex-direction: column;
+}
+header img {
+  margin: 3.2rem auto;
+}
+header h1 {
+  text-align: center;
+  background-color: #CBC0D3;
+  color: #FFFFFF;
+  font-size: var(--fs-title);
+  line-height: 3.4rem;
+  padding: 8px 0;
+}
+main{
+  display:flex;
+  background: #E5E5E5;
+}
+.page {
+  max-width: 38.4rem;
+  margin: auto;
+}
+.page p {
+  font-size: var(--fs-body);
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 6.3rem;
+}
+.page h2 {
+  width: 11.2rem;
+  font-family: 'Staatliches';
+  text-align: center;
+  font-size: var(--fs-body);
+  line-height: 3.4rem;  
+  background: #FEEAFA;
+  border-radius: 2rem;
+
+}
+.boxes {
+  display: grid;
+  gap:3.2rem;
+  margin-bottom: 6.0rem;
+}
+
+.box1, .box2{
+  width: 32rem;
+  margin: auto;
+
+  position: relative;
+}
+.box1 h2 , .box2 h2 {
+  position: absolute;
+  right: 1.6rem;
+  top: 1.6rem;;
+}
+.box1 img , .box2 img {
+  margin: 0 auto;
+}
+
+h1 , h2 {
+  font-family: 'Staatliches', cursive;
+}
